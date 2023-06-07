@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+
+    <link rel="shortcut icon" type="image/png" href="Potion_Bottle.png">
+	<link rel="apple-touch-icon" href="Potion_Bottle.png">
+    
+    <link rel="stylesheet" href="../styleMenu.css">
+    <title>Auto Follow Focus</title>
+</head>
+
+<body>
+  <div class="header">
+    <p>Auto Follow Focus</p>
+  </div>
+    <!-- Large Screen Navigation Bar -->
+    <nav>
+      <div class="logo"><a href="../home.html">Logo</a></div>
+      <div class="links">
+        <p><a class="active" href="followFocus.html">Concept</a></p>
+        <p><a href="demo_videos.html">Demo Videos</a></p>
+        <p><a href="components.html">Components</a></p>
+        <p><a href="journal.html">Journal</a></p>
+        <p><a href="resources.html">Resources</a></p>
+        <p id="mobile-menu-btn">Menu</p>
+      </div>
+    </nav>
+    <!-- Small Screen Navigation Bar -->
+    <div class="mobile-menu">
+      <p><a href="followFocus.html">Concept</a></p>
+      <p><a href="demo_videos.html">Demo Videos</a></p>
+      <p><a href="components.html">Components</a></p>
+      <p><a href="journal.html">Journal</a></p>
+      <p><a href="resources.html">Resources</a></p>
+    </div>
+    <div class="content"> 
+    <div class="projects">What is Follow Focus?</div>
+    <div class="description2">
+      Follow focus is a geared mechanism used to change the focus on camera lenses used for filmmaking 
+      called cinema lenses. They are typically used with high end video cameras called cinema cameras. 
+      It can either be a mechanical device or now more often an electronic device which is wireless.
+    </div>
+    <br>
+    <div id="images">
+      <img class="img" src="./img/mechanical-follow-focus.jpeg" title="Mechanical Follow Focus" width="16.7%" height="Auto"></img>
+      <img class="img" src="./img/wireless-follow-focus.jpeg" title="Wireless Follow Focus" width="33.5%" height="Auto"></img>
+    </div>
+    <div class="projects">Problem</div>
+    <div class="description2">
+      Unlike most modern consumer cameras, many cinema cameras do not have autofocus capabilities. 
+      On a large crew, this is not an issue because they have an individual called the 1st Assistant Camera 
+      (1st AC), whose only task is to keep the subject in focus. However on small sets, the crew does not 
+      always have this luxury and sometimes must rely on the cinematographer to be the camera operator 
+      as well as the 1st AC simultaneously. Having to do both jobs at once can become challenging especially
+      when following actors and trying to keep them in focus. Another issue is when a single person 
+      wants to film themselves moving around the frame without anyone behind the camera to 
+      change the focus point of the lens. Though there is an existing product that solves these issues, 
+      it requires the user to purchase other compatible gear for it to function.
+    </div>
+    <br>
+    <div class="projects">Existing Technology</div>
+    <div class="description2">
+      The existing product is the DJI LiDAR Range Finder which costs $659.00 and requires 
+      the DJI RS3 Pro gimbal ($869.00 - $1,298.95). The price is a huge factor which could
+      drive people away from buying the product. This Range Finder uses LiDAR to measure distance,
+      which means the subject has to be in the center of the camera. In addition, this system only
+      focuses on the object closest to the range finder which limits its applications.
+    </div>
+    <br>
+    <div id="images">
+    <a href="https://store.dji.com/product/dji-lidar-range-finder-rs?from=store-nav" target="_blank"><img class="img" src="./img/DJI-LiDAR.jpeg" title="DJI LiDar Range Finder" width="30%" height="Auto"></img></a>
+    <a href="https://store.dji.com/product/dji-rs-3-pro?vid=116481" target="_blank"><img class="img" src="./img/DJI-RS3-Pro.jpeg" title="DJI RS3 Gimbal" width="20%" height="Auto"></img></a>
+    </div>
+    <br>
+    <div class="projects">Concept</div>
+    <div class="description2">
+      Though the LiDAR system that DJI implemented to track the distance of the subject works well, 
+      another option would be to use ultra-wideband (UWB) technology which is used in products like
+      the Apple AirTag. There are multiple benefits to using a UWB system instead of a LiDAR system
+      for determining distance of a subject. Compared to LiDAR, UWB is more affordable, has a longer
+      detection range, and can reestablish connection after the subject has been lost momentarily.
+      The rest of the auto follow focus system would be similar to other motorized follow focus modules.
+      However, instead of receiving a manual human input, the input would be based on the distance 
+      information provided by the UWB system. This part of the system would include a NEMA 17 step motor 
+      and the L298N motor driver which would be connected to the ESP32 microprocessor from the Makerfabs 
+      UWB Pro. For the initial concept, each device will be connected with wires on a breadboard, but 
+      later might be soldered together and placed inside a 3D printed enclosure.
+    </div>
+    <br>
+    <div id="images">
+      <a href="https://www.makerfabs.com/esp32-uwb-high-power-120m.html" target="_blank"><img class="img" src="./img/ESP32-UWB-Pro.jpeg" title="Makerfabs ESP32 UWB Pro" width="20%" height="Auto"></img></a>
+      <a href="https://www.amazon.com/STEPPERONLINE-Bipolar-Stepper-22-6oz-Extruder/dp/B00PNEQ79Q/ref=asc_df_B00PNEQ79Q/?tag=hyprod-20&linkCode=df0&hvadid=312066954908&hvpos=&hvnetw=g&hvrand=6889853575966692386&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015640&hvtargid=pla-571445301101&psc=1#customerReviews" target="_blank"><img class="img" src="./img/Nema-17.jpeg" title="Nema 17" width="10.1%" height="Auto"></img></a>
+      <a href="https://www.makerfabs.com/l298n-motor-driver-board.html" target="_blank"><img class="img" src="./img/L298N-Motor-Driver.jpeg" title="Makerfabs L298N Motor Driver" width="20%" height="Auto"></img></a>
+    </div>
+    <br>
+    <br>
+  </div>
+  </body>
+
+<script src='../script.js'></script>
+
+</html>
