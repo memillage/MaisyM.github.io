@@ -475,11 +475,7 @@ input[type=submit]:hover{
     z-index: 2;
     pointer-events: all;
 }
-#s1:checked~.videos .v1,
-#s2:checked~.videos .v2,
-#s3:checked~.videos .v3{
-    pointer-events: none;
-}
+
 #s1:checked~.videos #slide2,
 #s2:checked~.videos #slide3,
 #s3:checked~.videos #slide1{
