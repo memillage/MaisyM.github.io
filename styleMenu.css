@@ -685,3 +685,10 @@ input[type=submit]:hover{
 .info a:hover{
     color:rgb(145, 154, 198);
 }
+
+model-viewer{
+    width: 800px;
+    height: 600px;
+    margin: 0;
+    display: block;
+}
