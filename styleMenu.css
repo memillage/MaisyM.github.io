@@ -690,5 +690,9 @@ model-viewer{
     width: 800px;
     height: 600px;
     margin: 0;
-    display: block;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 }
