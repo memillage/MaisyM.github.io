@@ -707,6 +707,16 @@ model-viewer{
     margin-left: calc(22% - 35px);
     margin-right: calc(22% - 35px);
 }
+.3Dmodel{
+    text-align: center;
+    color: white;
+    font-family: 'IBM-Light';
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-left: calc(22% - 35px);
+    margin-right: calc(22% - 35px);
+}
 .img_description{
     text-align: right;
     font-style: italic;
