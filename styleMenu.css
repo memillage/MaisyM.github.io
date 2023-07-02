@@ -206,7 +206,7 @@ nav .links a:hover{
     cursor: pointer;
 }
 .description{
-    text-align: justify;
+    text-align: center;
     color: white;
     font-family: 'IBM-Light';
     font-size: 16px;
@@ -698,3 +698,25 @@ model-viewer{
     margin-bottom: 2vw;
     border-radius: 10px;
 }
+.entry{
+    text-align: justify;
+    color: white;
+    font-family: 'IBM-Light';
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-left: calc(22% - 35px);
+    margin-right: calc(22% - 35px);
+}
+.img_description{
+    text-align: right;
+    font-style: italic;
+    color: white;
+    font-family: 'IBM-Light';
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-left: calc(22% - 35px);
+    margin-right: calc(22% - 35px);
+}
+    
