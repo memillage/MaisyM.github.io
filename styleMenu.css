@@ -694,21 +694,11 @@ model-viewer{
     margin-right: auto;
     text-align: center;
     background-color: rgb(63, 68, 103);
-    margin-bottom: 2vw;
+    margin-bottom: 1.5vw;
     border-radius: 10px;
 }
 .entry{
     text-align: justify;
-    color: white;
-    font-family: 'IBM-Light';
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 20px;
-    margin-left: calc(22% - 35px);
-    margin-right: calc(22% - 35px);
-}
-.3Dmodel{
-    text-align: center;
     color: white;
     font-family: 'IBM-Light';
     font-size: 16px;
@@ -722,8 +712,8 @@ model-viewer{
     font-style: italic;
     color: white;
     font-family: 'IBM-Light';
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 14px;
     margin-top: 2vw;
     margin-bottom: 20px;
     margin-left: calc(22% - 35px);
