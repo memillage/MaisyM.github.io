@@ -49,10 +49,24 @@
         Week I
       </div>
       <div class="description">
-        Description
-	      <br>
-        <model-viewer src="../models/followFocus_motor-gear_v03.glb" camera-controls></model-viewer>
+        Initially, I tried using Visual Studio with the Platform.io library and provided code from the makefab's github. After adding the code, I ran it, 
+	but unfortunately the board wasn't being programmed. After a few more attempts, it still didn't work so I switched to the Arduino IDE. I again used the 
+	given code and DW1000 library from the previously mentioned makerfab github. I tried adding the ports, but they weren't showing up. After switching the 
+	cables plugged into the computer, it finaly registered the ports and the boards. I also initially had the incorrect baud rate so the output was incorrect.
+	Once I changed it, the correct outputs displayed, showing the distance between the two UWB devices. I then converted the output from meters to feet. The 
+	current outputs are not very accurate and will need to be calabrated via testing.
+	<br>
+	I bought the incorrect cables power cables to connect to the 12V source. The ones I got were 5.5 x 5.1 power jacks, but I needed 5.5 x 2.5. 
+	In addition, the gears I received to use with the lens do not fit on the motor shaft of the Nema 17. To meditate the issue, I bought ridge flange shaft couplings
+	which I will connect to the gear and place onto the motor shaft. To conceptualize the idea, I created a 3D model with the dimensions of each item. 
+	<br>
+	After I created the model, I decided to design a part which will be 3D printed. It is designed to be attached to the bottom of the motor and screwed to the camera rig
+	accessory via a theaded heat insert.
+	<br>
+	<i>Part design to attach motor to the camera</i>
         <model-viewer src="../models/followFocus_rod-motor-attachment_v01.glb" camera-controls></model-viewer>
+	<i>Part design attached to motor</i>
+        <model-viewer src="../models/followFocus_motor-gear_v03.glb" camera-controls></model-viewer>
       </div>
       </div> 
     </div>
