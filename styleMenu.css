@@ -715,6 +715,7 @@ model-viewer{
     font-size: 12px;
     line-height: 14px;
     margin-bottom: 2vw;
+    margin-top:-10px;
     margin-left: calc(22% - 35px);
     margin-right: calc(22% - 35px);
 }
