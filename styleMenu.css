@@ -688,7 +688,7 @@ input[type=submit]:hover{
 
 model-viewer{
     width: 90%;
-    height: 90vw;
+    height: 70vw;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
