@@ -694,7 +694,7 @@ model-viewer{
     margin-right: auto;
     text-align: center;
     background-color: rgb(63, 68, 103);
-    margin-top: 1.5vw;
+    margin-top: 10px;
     border-radius: 10px;
 }
 .entry{
@@ -714,7 +714,7 @@ model-viewer{
     font-family: 'IBM-Light';
     font-size: 12px;
     line-height: 14px;
-    margin-bottom: 4vw;
+    margin-bottom: 24px;
     margin-top:-20px;
     margin-left: calc(22% - 35px);
     margin-right: calc(22% - 35px);
