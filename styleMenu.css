@@ -719,4 +719,16 @@ model-viewer{
     margin-left: calc(22% - 35px);
     margin-right: calc(22% - 35px);
 }
+.week{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-family: 'IBM-Light';
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 24px;
+    margin-top:-20px;
+    margin-left: calc(22% - 35px);
+    margin-right: calc(22% - 35px);
+}
     
