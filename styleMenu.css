@@ -722,12 +722,12 @@ model-viewer{
 .week{
     text-align: center;
     font-style: italic;
-    color: white;
+    background-color: rgb(153, 158, 196);
     font-family: 'IBM-Light';
     font-size: 12px;
     line-height: 14px;
     margin-bottom: 24px;
-    margin-top:-5px;
+    margin-top:-10px;
     margin-left: calc(22% - 35px);
     margin-right: calc(22% - 35px);
 }
